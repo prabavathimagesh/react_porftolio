@@ -1,0 +1,39 @@
+[
+    {
+        "img":"https://img.freepik.com/free-photo/html-system-websites-concept_23-2150323536.jpg?w=360",
+        "titile":"HTML",
+        "difinition":"the standard markup language for Web pages",
+        "use":" the meaning and structure of web content."
+    },
+    {
+        "img":"https://www.shutterstock.com/shutterstock/photos/1893752428/display_1500/stock-photo-css-code-on-dark-background-in-code-editor-and-word-css-1893752428.jpg",
+        "titile":"CSS",
+        "difinition":" it is the programing languages",
+        "use":" CSS is a cornerstone technology of the World Wide Web."
+    },
+    {
+        "img":"https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-social.png",
+        "titile":"BOOTSTRAP",
+        "difinition":" What is Bootstrap? Bootstrap is a free",
+        "use":"Bootstrap is a free and open-source CSS framework"
+    },
+    {
+        "img":"https://thumbs.dreamstime.com/b/javascript-inscription-above-open-book-light-coming-words-education-concept-190594953.jpg",
+        "titile":"JAVASCREPT",
+        "difinition":" the Programming Language for the Web",
+        "use":"is one of the core technologies of the World Wide Web, "
+    },
+    {
+        "img":"https://miro.medium.com/v2/resize:fit:1200/1*odW0CyTVxMVt5s3yhjjOhw.png",
+        "titile":"REACT.Js",
+        "difinition":"the library for web and  user interfaces",
+        "use":" React can be used to develop single-page, mobile, server-rendered applications"
+    },
+    {
+        "img":"https://www.unixmen.com/wp-content/uploads/2014/09/wordpress.jpg",
+        "titile":"WORDPRESS",
+        "difinition":"open-source WordPress software ",
+        "use":"It was originally created as a tool to publish blog"
+    }
+    
+]

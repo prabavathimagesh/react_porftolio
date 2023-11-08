@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@1,500&family=Croissant+One&family=Dancing+Script:wght@600&family=Edu+TAS+Beginner:wght@600&family=Fuggles&family=Headland+One&family=Josefin+Sans&family=Kaushan+Script&family=Laila:wght@600&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat&family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@1,500&family=Croissant+One&family=Dancing+Script:wght@600&family=Edu+TAS+Beginner:wght@600&family=Fuggles&family=Headland+One&family=Josefin+Sans&family=Kaushan+Script&family=Laila:wght@600&family=Satisfy&display=swap');
+
+.contant__Educations{
+    color: white;
+   text-align: center; 
+}
+.head__education{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+    font-size: 35px;
+    color: rgb(34, 131, 138);
+    font-size: 40px;
+}
+.headtwo__education{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+.education{
+    text-align: center;
+    color: white;
+}

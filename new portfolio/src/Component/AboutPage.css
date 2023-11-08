@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@500&family=Crimson+Text:ital,wght@1,600&family=Croissant+One&family=Dancing+Script:wght@600&family=Edu+TAS+Beginner:wght@600&family=Fuggles&family=Headland+One&family=Josefin+Sans&family=Kaushan+Script&family=Laila:wght@600&family=Satisfy&display=swap');
+
+
+  .About__main{
+   
+    background-image: url("https://images.unsplash.com/photo-1491947153227-33d59da6c448?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wJTIwa2V5JTIwd2hpdGUlMjBjb2xvcnxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    
+  }
+  .box {
+    width: 120px;
+    height: 70px;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  .box:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+  }
+  .box:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+  }
+  .box {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  .box:before {
+    border-color:#F3380A;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  .box:after {
+    border-color: #262626;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+  button {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+.Container__About{
+    font-family: 'Cinzel', serif;
+    font-weight: 100; 
+    color: white;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}  
+span{
+    color: #F3380A;
+}
+

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Croissant+One&family=Dancing+Script:wght@600&family=Edu+TAS+Beginner:wght@600&family=Fuggles&family=Headland+One&family=Kaushan+Script&family=Laila:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Croissant+One&family=Dancing+Script:wght@600&family=Edu+TAS+Beginner:wght@600&family=Fuggles&family=Headland+One&family=Josefin+Sans&family=Kaushan+Script&family=Laila:wght@600&display=swap');
+
+.containernavbar{
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    z-index: 200px;
+    background: transparent;
+}
+
+@media all and(max-width:425px) {
+    .Navbar__header{
+        width: 100%;
+    }
+}
+@media all and(max-width:375px) {
+    .Navbar__header{
+        width: 100%;
+    }
+}
+
+.hearder__left:hover{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.hearder__left{
+    font-family: 'Laila', serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    flex: 0.4;
+    text-align: center;
+}
+.hearder__left > span{
+    color: #FA5102;
+}
+.homeNavbar{
+    margin-left: 70px;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+   color: white;
+    cursor: pointer;
+   
+}
+.homeNavbar:hover{
+    background-color: #FA5102;
+    border-radius: 2px;
+    color: black;
+    font-family: 'Laila', serif;
+    letter-spacing: 1px;
+
+}

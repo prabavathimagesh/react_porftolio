@@ -1,0 +1,19 @@
+.Certificated__page{
+    width: 310px;
+    height: 200px; 
+    margin-top: 10px;    
+    
+}
+.Certificated__page:hover{
+transform:scale(1.0);
+}
+.cardfirst{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+@media screen and(max-width: 320px) {
+    .Certificated__page{
+        width: 50px;
+    }
+}
